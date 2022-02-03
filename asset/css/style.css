@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: 40px auto;
+}
+
+.product{
+    display: inline-block;
+    position: relative;
+}
+
+img{
+   width: 300px;
+   height: auto;
+}
+
+.discount{
+    background-color: red;
+    color: white;
+    padding: 3px;
+    position: absolute;
+    left: 0;
+    bottom: 80px;
+}
+
+.sustainability{
+    background-color: green;
+    color: white;
+    padding: 3px;
+    position: absolute;
+    left: 45px;
+    bottom: 80px;
+}
+
+.heart{
+    background-color: white;
+    padding: 10px;
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+
+.price{
+    color: red;
+}
+
+.old-price{
+    text-decoration: line-through;
+}
+
+.sustainability-1{
+    background-color: green;
+    color: white;
+    padding: 3px;
+    position: absolute;
+    left: 0px;
+    bottom: 80px;
+}
