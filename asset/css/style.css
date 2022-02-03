@@ -9,13 +9,14 @@ body{
 }
 
 .container{
-    width: 80%;
+    width: 910px;
     margin: 40px auto;
 }
 
 .product{
     display: inline-block;
     position: relative;
+    margin-bottom: 20px;
 }
 
 img{
