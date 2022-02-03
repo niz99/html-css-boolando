@@ -65,3 +65,17 @@ img{
     left: 0px;
     bottom: 80px;
 }
+
+.second-img{
+    display: none;
+}
+
+.product:hover .first-img{
+    display: none;
+}
+
+.product:hover .second-img{
+    display: block;
+    cursor: pointer;
+}
+
